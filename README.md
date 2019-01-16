@@ -10,11 +10,10 @@
 
 7.Go to inside app folder to src/main/AndroidManifest.xmland inside application tag add following line:
 
-8.android:name="android.support.multidex.MultiDexApplication"
-```
+8.android:name=" ```android.support.multidex.MultiDexApplication``` "
 9.Without this line, you can create android app, even publish it, but it will crash on any device with API 20 or lower. - android 4.4W KitKat or older.
 10.Party
-
+```
 //Start
 
 apply plugin: 'com.android.application'
